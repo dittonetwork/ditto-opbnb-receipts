@@ -1,0 +1,41 @@
+[
+  {
+    "type": "function",
+    "name": "stamp",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      { "name": "anchorRoot", "type": "bytes32" },
+      { "name": "equityUsdCents", "type": "uint64" }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "function",
+    "name": "anchor",
+    "stateMutability": "nonpayable",
+    "inputs": [
+      { "name": "root", "type": "bytes32" },
+      { "name": "leafCount", "type": "uint32" }
+    ],
+    "outputs": []
+  },
+  {
+    "type": "event",
+    "name": "Stamped",
+    "anonymous": false,
+    "inputs": [
+      { "name": "wallet", "type": "address", "indexed": true },
+      { "name": "anchorRoot", "type": "bytes32", "indexed": false },
+      { "name": "equityUsdCents", "type": "uint64", "indexed": false }
+    ]
+  },
+  {
+    "type": "event",
+    "name": "Anchored",
+    "anonymous": false,
+    "inputs": [
+      { "name": "root", "type": "bytes32", "indexed": false },
+      { "name": "leafCount", "type": "uint32", "indexed": false }
+    ]
+  }
+]

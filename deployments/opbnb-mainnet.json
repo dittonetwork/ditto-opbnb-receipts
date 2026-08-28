@@ -1,0 +1,28 @@
+{
+  "network": "opBNB Mainnet",
+  "chainId": 204,
+  "contractName": "DittoCheckpoints",
+  "address": "0x2648463de873d2d9ea9925f9c75d841193c7d152",
+  "explorerUrl": "https://opbnb.bscscan.com/address/0x2648463de873d2d9ea9925f9c75d841193c7d152",
+  "deploymentTransaction": "0x97fc3ad7a9bd3d86aa2d751fd98e96fb351617fcb9fce750671d3b323c034ea2",
+  "deploymentTransactionUrl": "https://opbnb.bscscan.com/tx/0x97fc3ad7a9bd3d86aa2d751fd98e96fb351617fcb9fce750671d3b323c034ea2",
+  "deploymentBlock": 175359333,
+  "deployedAt": "2026-08-17T08:52:44Z",
+  "deployer": "0x2530E4A72587450529FB99518Db39d6a218a4177",
+  "deployerNonce": 114,
+  "transactionStatus": 1,
+  "compiler": {
+    "language": "Solidity",
+    "version": "0.8.26",
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "default"
+  },
+  "license": "MIT",
+  "source": "contracts/DittoCheckpoints.sol",
+  "abi": "abi/DittoCheckpoints.json",
+  "creationBytecode": "artifacts/DittoCheckpoints.creation.bin",
+  "creationBytecodeSha256": "890b1b45e024a2f3a4345e9788823ed97bda0c7c7c702e245378981ec903631d"
+}
