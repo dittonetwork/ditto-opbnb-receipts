@@ -1,0 +1,26 @@
+{
+  "name": "Ditto",
+  "status": "Live",
+  "website": "https://app.dittonetwork.io",
+  "documentation": "https://app.dittonetwork.io/docs",
+  "tagline": "A non-custodial trading and wallet-intelligence terminal with tamper-evident opBNB activity receipts.",
+  "description": "Ditto brings market discovery, wallet intelligence, demo trading, and connected venue execution into one terminal. Demo actions create opBNB receipts through a unique mirror address for each user. After a supported venue confirms a real fill, Ditto can create a separately classified receipt that commits fill metadata and the action-time trading-equity snapshot. Receipts are activity attestations, not venue settlement. Users can also publish a competition score with their connected wallet.",
+  "categories": ["Infra-and-Tools", "AI", "DeFi"],
+  "chains": [
+    {
+      "name": "opBNB Mainnet",
+      "chainId": 204,
+      "contracts": ["0x2648463de873d2d9ea9925f9c75d841193c7d152"]
+    }
+  ],
+  "hasToken": false,
+  "logo": "https://app.dittonetwork.io/brand/symbol-black.png",
+  "cover": "https://app.dittonetwork.io/brand/og-banner-1200x630.png",
+  "socials": {
+    "twitter": "https://x.com/Ditto_Network",
+    "github": "https://github.com/dittonetwork",
+    "discord": "https://discord.gg/64b6tDS8QG"
+  },
+  "supportEmail": "info@dittonetwork.io",
+  "repository": "https://github.com/dittonetwork/ditto-opbnb-receipts"
+}
